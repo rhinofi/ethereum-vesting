@@ -1,0 +1,27 @@
+{
+  "name": "ethereum-vesting",
+  "version": "0.0.1",
+  "description": "An smart-contract for securely vesting Ethereum",
+  "main": "index.js",
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeversiFi/ethereum-vesting.git"
+  },
+  "keywords": [
+    "ethereum",
+    "vesting",
+    "time-lock"
+  ],
+  "author": "will@deversifi.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeversiFi/ethereum-vesting/issues"
+  },
+  "homepage": "https://github.com/DeversiFi/ethereum-vesting#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "2.3"
+  }
+}
